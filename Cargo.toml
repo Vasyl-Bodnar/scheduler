@@ -1,0 +1,11 @@
+[package]
+name = "scheduler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+argh = "0.1.9"
+chrono = "*"
+directories = "4.0.1"
+owo-colors = "3.5.0"
