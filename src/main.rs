@@ -1,4 +1,4 @@
-use chrono::{Months, Utc, Datelike};
+use chrono::{Datelike, Months, Utc};
 use directories::ProjectDirs;
 use owo_colors::OwoColorize;
 use rusqlite::{Connection, Result};
